@@ -7,5 +7,9 @@ public static void main(String[] args){
 
   // Method Overloading
   OverloadingExample calc = new OverloadingExample();
-  int sum1 = calc_add(5,3); // Invokes ad method with integers
+  int sum1 = calc.add(5,3); // Invokes ad method with integers
+  double sum2 = calc.add(5.5,3.7); // Invokes ad method with doubles
+  // Output Results
+  System.out.println("Sum of Integers: " + sum1);
+  System.out.println("Sum of Doubles: " + sum2);
 }
